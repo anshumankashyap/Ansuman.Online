@@ -1,259 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ansuman Panda — Software Developer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<div class="cursor" id="cursor"></div>
-<div class="cursor-ring" id="cursorRing"></div>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
 
-<!-- NAV -->
-<nav>
-  <div class="nav-logo">Ansuman<span>.dev</span></div>
-  <ul class="nav-links">
-    <li><a href="#about">about</a></li>
-    <li><a href="#skills">skills</a></li>
-    <li><a href="#projects">projects</a></li>
-    <li><a href="#experience">experience</a></li>
-    <li><a href="#contact">contact</a></li>
-  </ul>
-</nav>
+  <!-- NAV -->
+  <nav>
+    <div class="nav-logo">Ansuman<span>.dev</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
 
-<!-- HERO -->
-<section id="hero">
-  <div class="orb orb1"></div>
-  <div class="orb orb2"></div>
-  <div class="hero-inner">
-    <p class="hero-label">// software developer</p>
-    <h1 class="hero-name">
-      Ansuman<br>
-      <span class="line2">Panda.</span>
-    </h1>
-    <p class="hero-sub">
-      <span id="typed"></span><span class="typed-cursor">█</span>
-    </p>
-    <div class="hero-cta">
-      <a href="#projects" class="btn btn-primary">view my work</a>
-      <a href="#contact" class="btn btn-outline">get in touch</a>
+  <!-- HERO -->
+  <section id="hero">
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="hero-inner">
+      <p class="hero-label">// software developer</p>
+      <h1 class="hero-name">
+        Ansuman<br>
+        <span class="line2">Panda.</span>
+      </h1>
+      <p class="hero-sub">
+        <span id="typed"></span><span class="typed-cursor">█</span>
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">view my work</a>
+        <a href="#contact" class="btn btn-outline">get in touch</a>
+      </div>
     </div>
-  </div>
-  <div class="ticker-wrap">
-    <div class="ticker" id="ticker">
-      <span class="ticker-item"><span>✦</span> Full-Stack Development</span>
-      <span class="ticker-item"><span>✦</span> System Design</span>
-      <span class="ticker-item"><span>✦</span> API Architecture</span>
-      <span class="ticker-item"><span>✦</span> Cloud Infrastructure</span>
-      <span class="ticker-item"><span>✦</span> Open Source</span>
-      <span class="ticker-item"><span>✦</span> Problem Solving</span>
-      <span class="ticker-item"><span>✦</span> Clean Code</span>
-      <span class="ticker-item"><span>✦</span> Full-Stack Development</span>
-      <span class="ticker-item"><span>✦</span> System Design</span>
-      <span class="ticker-item"><span>✦</span> API Architecture</span>
-      <span class="ticker-item"><span>✦</span> Cloud Infrastructure</span>
-      <span class="ticker-item"><span>✦</span> Open Source</span>
-      <span class="ticker-item"><span>✦</span> Problem Solving</span>
-      <span class="ticker-item"><span>✦</span> Clean Code</span>
+    <div class="ticker-wrap">
+      <div class="ticker" id="ticker">
+        <span class="ticker-item"><span>✦</span> Full-Stack Development</span>
+        <span class="ticker-item"><span>✦</span> System Design</span>
+        <span class="ticker-item"><span>✦</span> API Architecture</span>
+        <span class="ticker-item"><span>✦</span> Cloud Infrastructure</span>
+        <span class="ticker-item"><span>✦</span> Open Source</span>
+        <span class="ticker-item"><span>✦</span> Problem Solving</span>
+        <span class="ticker-item"><span>✦</span> Clean Code</span>
+        <span class="ticker-item"><span>✦</span> Full-Stack Development</span>
+        <span class="ticker-item"><span>✦</span> System Design</span>
+        <span class="ticker-item"><span>✦</span> API Architecture</span>
+        <span class="ticker-item"><span>✦</span> Cloud Infrastructure</span>
+        <span class="ticker-item"><span>✦</span> Open Source</span>
+        <span class="ticker-item"><span>✦</span> Problem Solving</span>
+        <span class="ticker-item"><span>✦</span> Clean Code</span>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ABOUT -->
-<section id="about">
-  <div class="reveal">
-    <p class="section-label">// 01 — about me</p>
-    <h2 class="section-title">Who I <em>Am.</em></h2>
-  </div>
-  <div class="about-grid reveal">
-    <div class="about-text">
-      <p>Hey! I'm <strong>Ansuman Panda</strong> — a passionate software developer who loves building things that live on the internet. I care deeply about writing <strong>clean, efficient code</strong> and crafting experiences that feel intuitive and fast.</p>
-      <p>From architecting scalable backends to polishing pixel-perfect frontends, I enjoy the full spectrum of software development. I believe great software is equal parts logic and craft.</p>
-      <p>When I'm not coding, you'll find me exploring new technologies, contributing to open source, or solving algorithmic puzzles just for fun.</p>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="reveal">
+      <p class="section-label">// 01 — about me</p>
+      <h2 class="section-title">Who I <em>Am.</em></h2>
     </div>
-    <div class="about-stats">
-      <div class="stat-card">
-        <div class="stat-num">20+</div>
-        <div class="stat-label">// projects shipped</div>
+    <div class="about-grid reveal">
+      <div class="about-text">
+        <p>Hey! I'm <strong>Ansuman Panda</strong> — a passionate software developer who loves building things that live
+          on the internet. I care deeply about writing <strong>clean, efficient code</strong> and crafting experiences
+          that feel intuitive and fast.</p>
+        <p>From architecting scalable backends to polishing pixel-perfect frontends, I enjoy the full spectrum of
+          software development. I believe great software is equal parts logic and craft.</p>
+        <p>When I'm not coding, you'll find me exploring new technologies, contributing to open source, or solving
+          algorithmic puzzles just for fun.</p>
+          <div>
+            <a href="https://drive.google.com/file/d/1YSVd9l7ZpIbsHYLXgH-oc6_NiLXP2IK6/view?usp=sharing" class="btn btn-primary">Resume</a>
+          </div>
       </div>
-      <div class="stat-card">
-        <div class="stat-num">10+</div>
-        <div class="stat-label">// technologies mastered</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-num">∞</div>
-        <div class="stat-label">// problems solved</div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <div class="stat-num">20+</div>
+          <div class="stat-label">// projects shipped</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">10+</div>
+          <div class="stat-label">// technologies mastered</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">∞</div>
+          <div class="stat-label">// problems solved</div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- SKILLS -->
-<section id="skills">
-  <div class="reveal">
-    <p class="section-label">// 02 — skills</p>
-    <h2 class="section-title">What I <em>Build With.</em></h2>
-  </div>
-  <div class="skills-grid">
-    <div class="skill-category reveal">
-      <div class="skill-cat-title">// languages</div>
-      <div class="skill-tags">
-        <span class="skill-tag">Python</span>
-        <span class="skill-tag">JavaScript</span>
-        <span class="skill-tag">SQL</span>
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="reveal">
+      <p class="section-label">// 02 — skills</p>
+      <h2 class="section-title">What I <em>Build With.</em></h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category reveal">
+        <div class="skill-cat-title">// languages</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">SQL</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-cat-title">// frontend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Next.js</span>
+          <span class="skill-tag">HTML/CSS</span>
+          <span class="skill-tag">Tailwind</span>
+          <span class="skill-tag">Redux</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-cat-title">// backend</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Django</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">FastAPI</span>
+          <span class="skill-tag">REST APIs</span>
+          <span class="skill-tag">WebSockets</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-cat-title">// tools & cloud</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">AWS</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">MongoDB</span>
+        </div>
       </div>
     </div>
-    <div class="skill-category reveal">
-      <div class="skill-cat-title">// frontend</div>
-      <div class="skill-tags">
-        <span class="skill-tag">React</span>
-        <span class="skill-tag">Next.js</span>
-        <span class="skill-tag">HTML/CSS</span>
-        <span class="skill-tag">Tailwind</span>
-        <span class="skill-tag">Redux</span>
-      </div>
-    </div>
-    <div class="skill-category reveal">
-      <div class="skill-cat-title">// backend</div>
-      <div class="skill-tags">
-        <span class="skill-tag">Django</span>
-        <span class="skill-tag">Node.js</span>
-        <span class="skill-tag">FastAPI</span>
-        <span class="skill-tag">REST APIs</span>
-        <span class="skill-tag">WebSockets</span>
-      </div>
-    </div>
-    <div class="skill-category reveal">
-      <div class="skill-cat-title">// tools & cloud</div>
-      <div class="skill-tags">
-        <span class="skill-tag">Git</span>
-        <span class="skill-tag">Docker</span>
-        <span class="skill-tag">AWS</span>
-        <span class="skill-tag">Linux</span>
-        <span class="skill-tag">PostgreSQL</span>
-        <span class="skill-tag">MongoDB</span>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- PROJECTS -->
-<section id="projects">
-  <div class="reveal">
-    <p class="section-label">// 03 — projects</p>
-    <h2 class="section-title">Things I've <em>Built.</em></h2>
-  </div>
-  <div class="projects-grid">
-    <div class="project-card reveal">
-      <div class="project-num">// PROJECT 01</div>
-      <h3 class="project-title">DevFlow — Task Manager</h3>
-      <p class="project-desc">A full-stack project management tool built for developer teams. Features real-time updates, kanban boards, sprint planning, and GitHub integration.</p>
-      <div class="project-stack">
-        <span class="stack-tag">React</span>
-        <span class="stack-tag">Node.js</span>
-        <span class="stack-tag">PostgreSQL</span>
-        <span class="stack-tag">WebSockets</span>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="reveal">
+      <p class="section-label">// 03 — projects</p>
+      <h2 class="section-title">Things I've <em>Built.</em></h2>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-num">// PROJECT 01</div>
+        <h3 class="project-title">DevFlow — Task Manager</h3>
+        <p class="project-desc">A full-stack project management tool built for developer teams. Features real-time
+          updates, kanban boards, sprint planning, and GitHub integration.</p>
+        <div class="project-stack">
+          <span class="stack-tag">React</span>
+          <span class="stack-tag">Node.js</span>
+          <span class="stack-tag">PostgreSQL</span>
+          <span class="stack-tag">WebSockets</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/anshumankashyap/Dev-Flow" class="project-link">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+            GitHub
+          </a>
+          <a href="#" class="project-link">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+            Live Demo
+          </a>
+        </div>
       </div>
-      <div class="project-links">
-        <a href="https://github.com/anshumankashyap/Dev-Flow" class="project-link">
-          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-          GitHub
-        </a>
-        <a href="#" class="project-link">
-          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          Live Demo
-        </a>
+      <div class="project-card reveal">
+        <div class="project-num">// PROJECT 02</div>
+        <h3 class="project-title">NeuralSearch — AI Search Engine</h3>
+        <p class="project-desc">Semantic search engine using vector embeddings and LLMs. Ingests and indexes large
+          document collections with sub-100ms query response times.</p>
+        <div class="project-stack">
+          <span class="stack-tag">Python</span>
+          <span class="stack-tag">FastAPI</span>
+          <span class="stack-tag">Redis</span>
+          <span class="stack-tag">OpenAI API</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+            GitHub
+          </a>
+          <a href="#" class="project-link">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+            Live Demo
+          </a>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-num">// PROJECT 03</div>
+        <h3 class="project-title">CloudDeploy — CI/CD Pipeline</h3>
+        <p class="project-desc">Automated deployment pipeline with Docker containerization, multi-environment support,
+          rollback capabilities, and real-time deployment monitoring.</p>
+        <div class="project-stack">
+          <span class="stack-tag">Docker</span>
+          <span class="stack-tag">AWS</span>
+          <span class="stack-tag">GitHub Actions</span>
+          <span class="stack-tag">Bash</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+            GitHub
+          </a>
+          <a href="#" class="project-link">
+            <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+              <polyline points="15 3 21 3 21 9" />
+              <line x1="10" y1="14" x2="21" y2="3" />
+            </svg>
+            Live Demo
+          </a>
+        </div>
       </div>
     </div>
-    <div class="project-card reveal">
-      <div class="project-num">// PROJECT 02</div>
-      <h3 class="project-title">NeuralSearch — AI Search Engine</h3>
-      <p class="project-desc">Semantic search engine using vector embeddings and LLMs. Ingests and indexes large document collections with sub-100ms query response times.</p>
-      <div class="project-stack">
-        <span class="stack-tag">Python</span>
-        <span class="stack-tag">FastAPI</span>
-        <span class="stack-tag">Redis</span>
-        <span class="stack-tag">OpenAI API</span>
-      </div>
-      <div class="project-links">
-        <a href="#" class="project-link">
-          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-          GitHub
-        </a>
-        <a href="#" class="project-link">
-          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          Live Demo
-        </a>
-      </div>
-    </div>
-    <div class="project-card reveal">
-      <div class="project-num">// PROJECT 03</div>
-      <h3 class="project-title">CloudDeploy — CI/CD Pipeline</h3>
-      <p class="project-desc">Automated deployment pipeline with Docker containerization, multi-environment support, rollback capabilities, and real-time deployment monitoring.</p>
-      <div class="project-stack">
-        <span class="stack-tag">Docker</span>
-        <span class="stack-tag">AWS</span>
-        <span class="stack-tag">GitHub Actions</span>
-        <span class="stack-tag">Bash</span>
-      </div>
-      <div class="project-links">
-        <a href="#" class="project-link">
-          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-          GitHub
-        </a>
-        <a href="#" class="project-link">
-          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-          Live Demo
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- EXPERIENCE -->
-<section id="experience">
-  <div class="reveal">
-    <p class="section-label">// 04 — experience</p>
-    <h2 class="section-title">Where I've <em>Worked.</em></h2>
-  </div>
-  <div class="timeline">
-    <div class="timeline-item reveal">
-      <div class="tl-date">MAY/2025 — PRESENT</div>
-      <div class="tl-role">Software Developer</div>
-      <div class="tl-company">RamanaSoft</div>
-      <div class="tl-desc">Building and shipping production-grade features. Collaborating across engineering, design, and product to deliver high-quality software at scale.</div>
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="reveal">
+      <p class="section-label">// 04 — experience</p>
+      <h2 class="section-title">Where I've <em>Worked.</em></h2>
     </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-  <div class="contact-inner reveal">
-    <p class="section-label">// 05 — contact</p>
-    <h2 class="contact-big">Let's <span>build</span><br>something.</h2>
-    <p class="contact-sub">
-      Have a project in mind? Looking to collaborate?<br>
-      I'm always open to exciting new opportunities.
-    </p>
-    <a href="mailto:ansumaanpanda08@email.com" class="contact-email">ansumaanpanda08@email.com</a>
-    <div class="social-links">
-      <a href="https://github.com/anshumankashyap" class="social-link" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/ansumanpanda08" class="social-link" target="_blank">LinkedIn</a>
-      <a href="https://x.com/Anshumaan_08" class="social-link" target="_blank">Twitter</a>
-      <a href="https://drive.google.com/file/d/1pTIRkFd0KEo8OQ9QjPdwUP2HoiN_Me4d/view?usp=sharing" class="social-link" target="_blank">Resume ↗</a>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="tl-date">MAY/2025 — PRESENT</div>
+        <div class="tl-role">Software Developer</div>
+        <div class="tl-company">RamanaSoft</div>
+        <div class="tl-desc">Building and shipping production-grade features. Collaborating across engineering, design,
+          and product to deliver high-quality software at scale.</div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- FOOTER -->
-<footer>
-  <p>© 2026 <span>Ansuman Panda</span>. All rights reserved.</p>
-</footer>
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner reveal">
+      <p class="section-label">// 05 — contact</p>
+      <h2 class="contact-big">Let's <span>build</span><br>something.</h2>
+      <p class="contact-sub">
+        Have a project in mind? Looking to collaborate?<br>
+        I'm always open to exciting new opportunities.
+      </p>
+      <a href="mailto:ansumaanpanda08@email.com" class="contact-email">ansumaanpanda08@email.com</a>
+      <div class="social-links">
+        <a href="https://github.com/anshumankashyap" class="social-link" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/ansumanpanda08" class="social-link" target="_blank">LinkedIn</a>
+        <a href="https://x.com/Anshumaan_08" class="social-link" target="_blank">Twitter</a>
+        <a href="https://drive.google.com/file/d/1pTIRkFd0KEo8OQ9QjPdwUP2HoiN_Me4d/view?usp=sharing" class="social-link"
+          target="_blank">Resume ↗</a>
+      </div>
+    </div>
+  </section>
 
-<script src="main.js"></script>
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 <span>Ansuman Panda</span>. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
 
 </body>
+
 </html>
